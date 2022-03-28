@@ -1,13 +1,13 @@
 .jumbotron {
     padding-top: 6rem;
-    background-image: url("sean-pollock-PhYq704ffdA-unsplash.jpg");
+    background-image: url("../project_ii/img/sean-pollock-PhYq704ffdA-unsplash.jpg");
     
 }
 #portofolio {
-    background-color: #8bec7f;   
+    background-color: #ddd;   
 }
 .footer {
-    background-color: #8bec7f;
+    background-color: #ddd;
 }
 section {
     padding-top: 5rem;
@@ -17,4 +17,8 @@ section {
 }
 #sertifikat .row > * {
     padding: 0;
+}
+.display-4,
+.lead {
+    text-shadow: 2px 2px 2px black;
 }
