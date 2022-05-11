@@ -19,6 +19,9 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
+
+        <!-- LightBox css -->
+        <link rel="stylesheet" href="/dist/css/lightbox.css">
     
     <title>Portofolio | Abdu Majid Abdalah</title>
     <link rel="Icon" type="image/x-icon" href="img/favicon.ico">
@@ -78,14 +81,15 @@
             <div class="col-md-4"  data-aos="fade-left" data-aos-offset="350" data-aos-delay="300" data-aos-duration="2000">
               <p><b><i class="fa-solid fa-laptop-code"></i>
                 KEMAMPUAN</b></p>
-                 <h1> <i class="fa-brands fa-html5"></i>
+            <h1>
+                  <i class="fa-brands fa-html5"></i>
                   <i class="fa-brands fa-css3-alt"></i>
-                <i class="fa-brands fa-php"></i>
-                <i class="fa-brands fa-js-square"></i>
-                <i class="fa-brands fa-react"></i>
+                  <i class="fa-brands fa-php"></i>
+                  <i class="fa-brands fa-js-square"></i>
+                  <i class="fa-brands fa-react"></i>
                   <i class="fa-brands fa-git-square"></i> 
                   <i class="fa-brands fa-bootstrap"></i>
-                    </h1>
+            </h1>
                   </div>
             </div>
             </div>
@@ -156,18 +160,31 @@
               <h2>Sertifikat</h2>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6 mb-3">
+          <div class="row justify-content-center">
+            <div class="col-md-4 mb-3">
+              <a href="img/sertifikat/thumbnail/sk1.jpg" data-lightbox="sertifikat">
                 <img src="img/sertifikat/thumbnail/sk1.jpg" alt="Sertifikat 1"  class="img-fluid sertifikat-img">
+              </a>
             </div>
-            <div class="col-md-6 mb-3">
+            <div class="col-md-4 mb-3">
+              <a href="img/sertifikat/thumbnail/sk2.jpg" data-lightbox="sertifikat">
                 <img src="img/sertifikat/thumbnail/sk2.jpg" alt="Sertifikat 2"  class="img-fluid sertifikat-img">
+              </a>
             </div>
-            <div class="col-md-6 mb-3">
+            <div class="col-md-4 mb-3">
+              <a href="img/sertifikat/thumbnail/sk3.jpg" data-lightbox="sertifikat">
                 <img src="img/sertifikat/thumbnail/sk3.jpg" alt="Sertifikat 3"  class="img-fluid sertifikat-img">
+              </a>
             </div>
-            <div class="col-md-6 mb-3">
+            <div class="col-md-4 mb-3">
+              <a href="img/sertifikat/thumbnail/sk4.jpg" data-lightbox="sertifikat">
                 <img src="img/sertifikat/thumbnail/sk4.jpg" alt="Sertifikat 4"  class="img-fluid sertifikat-img">
+              </a>
+            </div>
+            <div class="col-md-4 mb-3">
+              <a href="img/sertifikat/thumbnail/bitdegree-certificate-1183508_page-0001.jpg" data-lightbox="sertifikat">
+                <img src="img/sertifikat/thumbnail/bitdegree-certificate-1183508_page-0001.jpg" alt="Sertifikat 4"  class="img-fluid sertifikat-img">
+              </a>
             </div>
           </div>
         </div>
@@ -199,7 +216,7 @@
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan" placeholder="Optional"></textarea>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan" placeholder="Opsional"></textarea>
               </div>
               <button type="submit" class="btn btn-dark text-light btn-kirim">Kirim</button>
 
@@ -251,6 +268,8 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
     
     <!-- Script AOS -->
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

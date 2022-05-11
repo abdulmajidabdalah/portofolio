@@ -1,32 +1,33 @@
 .jumbotron {
-    padding-top: 6rem;
-    background-image: url("sean-pollock-PhYq704ffdA-unsplash.jpg");
-    background-size: cover;
-    
+  padding-top: 6rem;
+  background-image: url("sean-pollock-PhYq704ffdA-unsplash.jpg");
+  background-size: cover;
 }
 #portofolio {
-    background-color: #212529;   
+  background-color: #212529;
 }
 .footer {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 section {
-    padding-top: 5rem;
-    background-color: #ddd;
+  padding-top: 5rem;
+  background-color: #ddd;
 }
 .sertifikat-img {
-    width: 100%;
+  width: 100%;
 }
 #sertifikat .row > * {
-    padding: 5px;
+  padding: 5px;
 }
 .display-4,
 .lead {
-    text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px black;
 }
 
 p .sosmed {
-    color: white;
+  color: white;
 }
 
-
+.nav-link:hover {
+  background-color: darkgrey;
+}
